@@ -1,0 +1,159 @@
+[
+  {
+    "id": 1,
+    "nome": "Acer Aspire 5",
+    "categoria": "notebook",
+    "marca": "Acer",
+    "preco": 3799.90,
+    "estoque": 12,
+    "ram_gb": 16,
+    "armazenamento": "512GB SSD",
+    "processador": "AMD Ryzen 5 5500U"
+  },
+  {
+    "id": 2,
+    "nome": "Lenovo IdeaPad 3",
+    "categoria": "notebook",
+    "marca": "Lenovo",
+    "preco": 3499.90,
+    "estoque": 8,
+    "ram_gb": 8,
+    "armazenamento": "512GB SSD",
+    "processador": "AMD Ryzen 5 5500U"
+  },
+  {
+    "id": 3,
+    "nome": "Samsung Galaxy Book4",
+    "categoria": "notebook",
+    "marca": "Samsung",
+    "preco": 4299.90,
+    "estoque": 5,
+    "ram_gb": 16,
+    "armazenamento": "512GB SSD",
+    "processador": "Intel Core i5"
+  },
+  {
+    "id": 4,
+    "nome": "ASUS Vivobook 15",
+    "categoria": "notebook",
+    "marca": "ASUS",
+    "preco": 3999.90,
+    "estoque": 0,
+    "ram_gb": 16,
+    "armazenamento": "512GB SSD",
+    "processador": "Intel Core i5"
+  },
+  {
+    "id": 5,
+    "nome": "Samsung Galaxy A56",
+    "categoria": "smartphone",
+    "marca": "Samsung",
+    "preco": 2199.90,
+    "estoque": 15,
+    "armazenamento": "256GB",
+    "ram_gb": 8,
+    "camera_principal": "50MP"
+  },
+  {
+    "id": 6,
+    "nome": "Samsung Galaxy S25",
+    "categoria": "smartphone",
+    "marca": "Samsung",
+    "preco": 4999.90,
+    "estoque": 7,
+    "armazenamento": "256GB",
+    "ram_gb": 12,
+    "camera_principal": "50MP"
+  },
+  {
+    "id": 7,
+    "nome": "Redmi Note 14",
+    "categoria": "smartphone",
+    "marca": "Xiaomi",
+    "preco": 1799.90,
+    "estoque": 20,
+    "armazenamento": "256GB",
+    "ram_gb": 8,
+    "camera_principal": "108MP"
+  },
+  {
+    "id": 8,
+    "nome": "LG UltraGear 27GS60F",
+    "categoria": "monitor",
+    "marca": "LG",
+    "preco": 1399.90,
+    "estoque": 10,
+    "polegadas": 27,
+    "hz": 180,
+    "resolucao": "Full HD"
+  },
+  {
+    "id": 9,
+    "nome": "AOC Hero 24G2",
+    "categoria": "monitor",
+    "marca": "AOC",
+    "preco": 999.90,
+    "estoque": 18,
+    "polegadas": 24,
+    "hz": 144,
+    "resolucao": "Full HD"
+  },
+  {
+    "id": 10,
+    "nome": "Samsung Odyssey G5",
+    "categoria": "monitor",
+    "marca": "Samsung",
+    "preco": 2299.90,
+    "estoque": 4,
+    "polegadas": 32,
+    "hz": 165,
+    "resolucao": "QHD"
+  },
+  {
+    "id": 11,
+    "nome": "Logitech G435",
+    "categoria": "headset",
+    "marca": "Logitech",
+    "preco": 499.90,
+    "estoque": 25,
+    "conexao": "sem fio",
+    "microfone": true
+  },
+  {
+    "id": 12,
+    "nome": "HyperX Cloud III",
+    "categoria": "headset",
+    "marca": "HyperX",
+    "preco": 699.90,
+    "estoque": 9,
+    "conexao": "com fio",
+    "microfone": true
+  },
+  {
+    "id": 13,
+    "nome": "RTX 4060 8GB",
+    "categoria": "placa de video",
+    "marca": "NVIDIA",
+    "preco": 2199.90,
+    "estoque": 6,
+    "memoria_video_gb": 8
+  },
+  {
+    "id": 14,
+    "nome": "RX 7600 8GB",
+    "categoria": "placa de video",
+    "marca": "AMD",
+    "preco": 1899.90,
+    "estoque": 11,
+    "memoria_video_gb": 8
+  },
+  {
+    "id": 15,
+    "nome": "Logitech MX Master 3S",
+    "categoria": "mouse",
+    "marca": "Logitech",
+    "preco": 599.90,
+    "estoque": 14,
+    "conexao": "sem fio"
+  }
+]
