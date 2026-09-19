@@ -7,6 +7,8 @@ description: Catálogo de produtos eletrônicos da TechStore. Use esta skill sem
 
 O arquivo `references/catalogo.json` contém o catálogo oficial da TechStore.
 
+Quando o usuário perguntar sobre produtos, consulte o arquivo `references/catalogo.json`.
+
 REGRAS:
 
 - O catálogo é a única fonte de verdade sobre produtos.
