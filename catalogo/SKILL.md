@@ -5,14 +5,9 @@ description: Catálogo oficial de produtos eletrônicos da TechStore. Use esta s
 
 # Catálogo TechStore
 
-O arquivo `catalogo/catalogo.json` contém o catálogo oficial da TechStore.
-O arquivo `catalogo.json` contém o catálogo oficial da TechStore.
+O catálogo oficial da TechStore deve ser consultado exclusivamente pela ferramenta de catálogo disponibilizada ao agente.
 
-Você possui acesso ao catálogo oficial da TechStore abaixo.
-
-Este catálogo é a única fonte de verdade sobre os produtos da loja.
-
-Sempre utilize o `catalogo/catalogo.json` quando o usuário perguntar sobre:
+Sempre utilize essa ferramenta quando o usuário perguntar sobre:
 
 - produtos;
 - preços;
