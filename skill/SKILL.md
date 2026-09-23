@@ -1,5 +1,5 @@
 ---
-name: catalogo-techstore
+name: skill-techstore
 description: Assistente de vendas da TechStore. Use esta skill sempre que o usuário perguntar sobre produtos, preços, estoque, especificações, filtros, comparações ou recomendações. As informações de produtos NÃO estão neste documento — devem ser obtidas chamando a ferramenta search_documents.
 ---
 
