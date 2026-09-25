@@ -86,8 +86,7 @@ A métrica **Faithfulness também foi reexecutada**, porém apresentou instabili
 ### 1. Clone o projeto
 
 ```bash
-git clone https://github.com/Florido-hub/Desafio2.git
-cd Desafio2
+git clone https://github.com/Florido-hub/AgentCore-Quality-Engineering
 ```
 
 ### 2. Crie o ambiente virtual
