@@ -193,21 +193,4 @@ Os casos problemáticos foram então utilizados novamente como **testes de regre
 
 ---
 
-## 7. Conclusão
-
-O projeto permitiu aplicar um ciclo completo de **Quality Engineering para agentes de IA**:
-
-**Construir → Explorar → Avaliar → Atacar → Corrigir → Retestar**
-
-O principal aprendizado foi que avaliar apenas a qualidade das respostas não é suficiente.
-
-Um agente também precisa ser testado quanto a:
-
-* comportamento;
-* uso das ferramentas;
-* segurança;
-* contexto;
-* resistência à manipulação;
-* consistência após mudanças.
-
-A versão final apresentou comportamento mais consistente que a baseline, mas ainda existem riscos e limitações que exigiriam controles adicionais antes de uma implantação ampla em produção.
+## 7. Considerações finais
