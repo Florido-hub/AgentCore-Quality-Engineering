@@ -73,11 +73,11 @@ Os resultados do AgentCore mostraram que avaliadores diferentes não necessariam
 
 A baseline do DeepEval foi executada com 15 casos. O modelo juiz local via Ollama foi utilizado por restrições de acesso a provedores externos. A baseline evidenciou baixa aprovação nas três métricas, especialmente Answer Relevancy e G-Eval.
 
-| **Métrica**      | **Threshold** | **Baseline** | **Reteste pós-melhoria**                                                     |
-| ---------------- | ------------- | ------------ | ---------------------------------------------------------------------------- |
-| Answer Relevancy | >= 0,70       | 3/15 (20,0%) | 11/15 (73,3%)                                                                |
-| Faithfulness     | >= 0,80       | 7/15 (46,7%) | Métrica repetida; resultado instável/inconclusivo por timeouts do juiz local |
-| G-Eval           | >= 0,80       | 5/15 (33,3%) | 11/15 (73,3%) em uma das execuções de reteste                                |
+| **Métrica**      | **Threshold** | **Baseline** |
+| ---------------- | ------------- | ------------ |
+| Answer Relevancy | >= 0,70       | 3/15 (20,0%) |
+| Faithfulness     | >= 0,80       | 7/15 (46,7%) |
+| G-Eval           | >= 0,80       | 5/15 (33,3%) |
 
 A interpretação de Answer Relevancy exige cuidado. Antes das melhorias, o agente frequentemente respondia perguntas fora do escopo; essas respostas podiam ser consideradas relevantes pelo juiz porque atendiam literalmente à pergunta. Após a correção, o agente passou a recusar adequadamente esses pedidos. Em alguns casos, a recusa correta recebeu score menor de relevância, demonstrando que uma queda pontual da métrica não representa necessariamente regressão funcional.
 Faithfulness foi reexecutada, porém o juiz local apresentou instabilidade, com inferências muito longas e timeouts recorrentes. Por esse motivo, a métrica foi marcada como repetida, mas seus resultados pós-melhoria foram tratados com ressalva e não utilizados isoladamente para concluir melhora ou piora do agente.
