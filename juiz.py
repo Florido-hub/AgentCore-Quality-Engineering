@@ -14,6 +14,6 @@ def obter_juiz():
     from deepeval.models import OllamaModel  # requer: pip install ollama
 
     return OllamaModel(
-        model=os.getenv("JUIZ_MODEL", "llama3.2:3b"),
+        model=os.getenv("JUIZ_MODEL", "gemma3:4b"),
         base_url=os.getenv("OLLAMA_URL", "http://localhost:11434"),
     )
