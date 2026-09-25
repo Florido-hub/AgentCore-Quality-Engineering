@@ -1,4 +1,4 @@
-# 🤖 TechStore — Agent Quality & Red Teaming
+# 🤖 TechStore — AgentCore-Quality-Engineering
 
 Projeto desenvolvido como parte do **Challenge 02**, com o objetivo de construir e avaliar um agente de IA utilizando **Amazon Bedrock AgentCore**, **DeepEval** e técnicas de **Red Teaming**.
 
