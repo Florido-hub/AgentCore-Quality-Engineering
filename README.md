@@ -197,3 +197,12 @@ A métrica **Faithfulness também foi reexecutada**, porém apresentou instabili
 Os resultados de métricas baseadas em LLM-as-a-Judge podem apresentar variações entre execuções. Durante os experimentos, o modelo local utilizado pelo Ollama apresentou instabilidade em algumas avaliações, especialmente na métrica Faithfulness.
 
 Este comportamento foi considerado durante a análise dos resultados e tratado como uma limitação da infraestrutura de avaliação, e não automaticamente como uma falha do agente.
+
+## 📝 Considerações finais
+
+O desenvolvimento do TechStore permitiu aplicar, na prática, diferentes etapas de Quality Engineering para agentes de IA, desde a exploração e criação do Golden Dataset até avaliações automatizadas, Red Teaming, correções e retestes.
+
+Mais do que avaliar métricas, o projeto mostrou a importância de entender como e por que um agente falha, utilizando essas evidências para tornar seu comportamento mais consistente e seguro.
+
+O projeto ainda possui espaço para evolução e aprimoramento, servindo como base para continuar explorando qualidade, avaliação e segurança de agentes de IA.
+> **Agradecimento especial a Nicolas Pereira**, pelo apoio e pela disponibilidade em esclarecer dúvidas durante o desenvolvimento do projeto.
