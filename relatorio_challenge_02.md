@@ -145,6 +145,8 @@ Após as modificações, os casos mais relevantes foram executados novamente par
 
 # 7. Conclusão e avaliação de risco
 
-O desafio demonstrou que a qualidade de um agente não pode ser avaliada por uma única métrica. O DeepEval permitiu testar sistematicamente o Golden Dataset e comparar comportamento antes e depois das mudanças; o AgentCore Evaluations trouxe observabilidade sobre sessões e traces reais; e o red teaming revelou vulnerabilidades que métricas de qualidade de resposta não capturaram diretamente.
-A versão final apresentou melhora clara em conformidade com o escopo, relevância funcional e resistência a manipulação do catálogo. A principal limitação experimental foi o uso de um LLM juiz local, que apresentou variação entre execuções e timeouts, especialmente em Faithfulness. Essa limitação foi tratada separadamente das falhas semânticas do agente.
-Em uma decisão de produção, o agente ainda exigiria controles adicionais antes de uma liberação ampla: validação determinística de parâmetros das ferramentas, observabilidade contínua, testes de regressão automatizados, proteção contra vazamento de instruções e uso de um juiz mais estável para avaliações periódicas. Com esses controles, a arquitetura demonstrada é adequada como base para evolução do TechStore.
+O desafio permitiu avaliar o TechStore por diferentes perspectivas, combinando DeepEval, AgentCore Evaluations e Red Teaming. As falhas identificadas orientaram correções e retestes, resultando em uma versão mais consistente e resistente que a baseline.
+
+Apesar da evolução, o agente ainda não está pronto para produção. Os resultados mostram que existem comportamentos e riscos residuais que precisam ser mais lapidados antes de uma utilização real.
+
+O projeto, portanto, estabelece uma base funcional para a evolução do TechStore e demonstra a importância de avaliar, identificar falhas, corrigir e retestar agentes de IA.
